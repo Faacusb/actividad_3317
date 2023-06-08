@@ -13,16 +13,16 @@
     <section>
       <form>
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" />
+        <input type="text" id="nombre" name="nombre" required/>
         <br><br>
         
 
         <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido" />
+        <input type="text" name="apellido" id="apellido" required />
         <br><br>
 
         <label>Modalidad de Cursada:</label>
-        <input type="radio" id="ondemand" name="cursada">
+        <input type="radio" id="ondemand" name="cursada" required>
         <label for="ondemand">On-Demand</label>
 
         <input type="radio" name="cursada" id="envivo">
@@ -30,7 +30,7 @@
         <br><br>
         
         <label for="correo">Correo:</label>
-        <input type="email" name="correo" id="correo">
+        <input type="email" name="correo" id="correo" required>
         
         <br><br>
 
@@ -39,7 +39,7 @@
 
         <br><br>
 
-        <input type="checkbox" name="terminos" id="terminos">
+        <input type="checkbox" name="terminos" id="terminos" required>
         <label for="terminos">Declaro que leí los terminos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.</label>
         <br><br>
         <input type="submit" value="Enviar">
